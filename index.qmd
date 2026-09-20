@@ -38,7 +38,7 @@ Introdução
 
 -   **Objetivo:** avaliar, na visão do próprio paciente, a segurança recebida durante a internação por COVID-19 em um hospital universitário de São Paulo.
 -   **Instrumento:** *Patient Measure of Safety* (PMOS) --- escala de 1 a 5, com 9 domínios.
--   **Amostra final:** 129 pacientes, entrevistados por telefone.
+-   **Amostra final:** 129 pacientes entrevistados por telefone.
 -   **Pergunta de pesquisa:** como pacientes internados por COVID-19 avaliam a segurança do cuidado recebido no hospital universitário?
 
 ##  {background-image="covid.jpg" background-size="cover" background-position="center" background-opacity="0.30" background-color="#0b3d63"}
