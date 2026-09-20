@@ -1,0 +1,210 @@
+---
+title: "Segurança do Paciente na Pandemia de COVID-19"
+subtitle: "Avaliação sob a perspectiva do paciente: uma leitura pela Inferência Estatística"
+author:
+  - "Gabriel Gonçalves"
+  - "Olga Grichtchouk"
+format:
+  revealjs:
+    css: estilo.css
+    slide-number: true
+    transition: slide
+    theme: simple
+    embed-resources: true
+    center: true
+    scrollable: true
+    title-slide-attributes:
+      data-background-image: "covid.jpg"
+      data-background-size: cover
+      data-background-position: center
+      data-background-opacity: "0.40"
+      data-background-color: "#0b3d63"
+---
+
+##  {background-image="covid.jpg" background-size="cover" background-position="center" background-opacity="0.30" background-color="#0b3d63"}
+
+::: secao-titulo
+Introdução
+:::
+
+::: secao-linha
+:::
+
+## Contextualização e Objetivo
+
+::: caixa
+**Gama BP, Ferreira de Mello ALS, Costa DG, Bohomol E.** Avaliação da segurança do paciente sob sua perspectiva na pandemia de COVID-19. *Rev Gaúcha Enferm.* 2025;46:e20240068.
+:::
+
+-   **Objetivo:** avaliar, na visão do próprio paciente, a segurança recebida durante a internação por COVID-19 em um hospital universitário de São Paulo.
+-   **Instrumento:** *Patient Measure of Safety* (PMOS) --- escala de 1 a 5, com 9 domínios.
+-   **Amostra final:** 129 pacientes, entrevistados por telefone.
+-   **Pergunta de pesquisa:** como pacientes internados por COVID-19 avaliam a segurança do cuidado recebido no hospital universitário?
+
+##  {background-image="covid.jpg" background-size="cover" background-position="center" background-opacity="0.30" background-color="#0b3d63"}
+
+::: secao-titulo
+Metodologia
+:::
+
+::: secao-linha
+:::
+
+## Delineamento e Amostra
+
+-   Estudo **transversal** com pacientes que receberam alta após internação no Hospital São Paulo (HU-UNIFESP) entre março/2020 e junho/2021, unidade de COVID-19.
+-   Coleta por telefone do PMOS (validado para o português do Brasil).
+-   Participantes deram anuência do Termo de Consentimento Livre e Esclarecido.
+-   Pesquisa foi aprovada pelo Comitê de Ética e Pesquisa da UNIFESP e seguiu as recomendações do Conselho Nacional de Saúde.
+
+## Questionário
+
+-   Possui 44 itens que são divididos em **9 domínios**: Comunicação e trabalho em equipe; Organização e planejamento do cuidado; Acesso a recursos; Tipo e apresentação da enfermaria; Fluxo da informação; Atribuições e responsabilidades da equipe; Treinamento da equipe; Equipamento; e Atrasos.
+
+::: caixa
+- "Eu recebi as respostas para todas as perguntas sobre os meus cuidados" 
+- "Eu sempre senti que a equipe ouvia as minhas preocupações"
+- "Em pelo menos uma ocasião, um membro da equipe não sabia executar uma tarefa que deveria ser capaz" 
+:::
+
+## Amostra
+
+-   Tamanho amostral calculado considerando Intervalo de Confiança de 95%, margem de erro de 0,3 pontos e DP de 1,28 → **n = 136**.
+
+| Etapa                       | n       |
+|-----------------------------|---------|
+| População elegível          | 1.139   |
+| Contatados                  | 512     |
+| Participaram                | 136     |
+| **Amostra final analisada** | **129** |
+
+## Ferramentas Estatísticas Utilizadas
+
+-   **Teste de Shapiro-Wilk** --- checagem prévia de normalidade, para validar o uso do teste t.
+
+-   **Teste t para duas amostras independentes** --- comparar o escore médio do PMOS entre dois grupos (ex.: com/sem sintoma).
+
+-   **ANOVA** --- comparar o escore médio do PMOS em mais de dois grupos (ex: escolaridade, tabagismo).
+
+-   Em todos os testes, adotou-se **p ≤ 0,05** como critério de significância estatística.
+
+##  {background-image="covid.jpg" background-size="cover" background-position="center" background-opacity="0.30" background-color="#0b3d63"}
+
+::: secao-titulo
+Resultados
+:::
+
+::: secao-linha
+:::
+
+## Estatística Descritiva do PMOS (n = 129) {.smaller}
+
+| Domínio                                  | Média (DP)     |                                |
+|------------------------|------------------------|------------------------|
+| **Comunicação e trabalho em equipe**     | **4,1 (0,5)**  | [▲ melhor]{.nao-significativo} |
+| Tipo e apresentação da enfermaria        | 4,0 (0,4)      |                                |
+| Organização e planejamento do cuidado    | 3,9 (0,5)      |                                |
+| Acesso a recursos                        | 3,9 (0,5)      |                                |
+| Treinamento da equipe / Atrasos          | 3,8 (0,7--0,9) |                                |
+| Atribuições e responsabilidades          | 3,7 (0,8)      |                                |
+| Fluxo da informação                      | 3,6 (0,7)      |                                |
+| **Equipamento (design e funcionamento)** | **3,0 (0,4)**  | [▼ pior]{.significativo}       |
+| **Escore total**                         | **3,8 (0,4)**  |                                |
+
+## Sexo e Ventilação Mecânica (Teste t†)
+
+| Variável                     | Grupo     | n   | Média (DP)  | p-valor |
+|------------------------------|-----------|-----|-------------|---------|
+| Sexo                         | Feminino  | 65  | 3,81 (0,38) | 0,103†  |
+|                              | Masculino | 63  | 3,71 (0,34) |         |
+| Ventilação mecânica invasiva | Não       | 99  | 3,78 (0,34) | 0,166†  |
+|                              | Sim       | 30  | 3,68 (0,43) |         |
+
+::: fonte
+†Teste t para amostras independentes.
+:::
+
+## Escolaridade e Tabagismo (ANOVA‡) {.smaller}
+
+| Variável     | Grupo             | n   | Média (DP)  | p-valor |
+|--------------|-------------------|-----|-------------|---------|
+| Escolaridade | Fund. incompleto  | 33  | 3,68 (0,28) | 0,263‡  |
+|              | Fund. completo    | 22  | 3,70 (0,28) |         |
+|              | Médio completo    | 50  | 3,83 (0,42) |         |
+|              | Superior completo | 24  | 3,79 (0,41) |         |
+| Tabagismo    | Não fumante       | 77  | 3,74 (0,30) | 0,462‡  |
+|              | Fumante           | 9   | 3,90 (0,42) |         |
+|              | Ex-fumante        | 43  | 3,75 (0,45) |         |
+
+Idade, dias de internação, internação em UTI, cor/raça, renda e número de residentes também não mostraram diferença significativa (ANOVA‡).
+
+::: fonte
+‡Análise de Variância.
+:::
+
+## Sintomas Associados à Percepção de Segurança
+
+| Sintoma          | Sem (média) | Com (média) | p-valor    |
+|------------------|-------------|-------------|------------|
+| Tosse            | 3,84        | 3,69        | **0,018†** |
+| Náuseas e vômito | 3,81        | 3,64        | **0,020†** |
+| Diarreia         | 3,82        | 3,66        | **0,013†** |
+
+Pacientes com esses sintomas relataram, em média, **menor** percepção de segurança --- diferença [estatisticamente significativa]{.significativo} (p ≤ 0,05).
+
+::: fonte
+†Teste t para amostras independentes.
+:::
+
+## Síntese dos Resultados
+
+-   Escore médio geral do PMOS: **3,8 (DP 0,4)** --- avaliação globalmente favorável.
+-   Domínio melhor avaliado: **comunicação e trabalho em equipe**; pior avaliado: **equipamento**.
+-   Nenhuma variável sociodemográfica influenciou a percepção de segurança.
+-   Tosse, náuseas/vômito e diarreia associaram-se a **menor** percepção de segurança.
+
+##  {background-image="covid.jpg" background-size="cover" background-position="center" background-opacity="0.30" background-color="#0b3d63"}
+
+::: secao-titulo
+Conclusão
+:::
+
+::: secao-linha
+:::
+
+## Conclusão
+
+-   Pacientes internados por COVID-19 avaliaram a segurança do cuidado de forma majoritariamente positiva, destacando a comunicação da equipe.
+-   Sintomas mais intensos (tosse, náuseas/vômito, diarreia) associaram-se a uma percepção pior de segurança.
+-   **Limitações:** estudo em um único centro; desafio de coleta de dados por telefone; coleta retrospectiva, sujeita a viés de memória.
+
+::: fonte
+Gama BP, Ferreira de Mello ALS, Costa DG, Bohomol E. Rev Gaúcha Enferm. 2025;46:e20240068.
+:::
+
+##  {background-image="covid.jpg" background-size="cover" background-position="center" background-opacity="0.30" background-color="#0b3d63"}
+
+::: secao-titulo
+Obrigado
+:::
+
+::: secao-linha
+:::
+
+::: secao-contato
+::: contato-coluna
+**Gabriel Gonçalves**
+
+[g_goncalves\@id.uff.br](mailto:g_goncalves@id.uff.br)
+
+[github.com/Gonbriel](https://github.com/Gonbriel)
+:::
+
+::: contato-coluna
+**Olga Grichtchouk**
+
+[ogrichtchouk\@id.uff.br](mailto:ogrichtchouk@id.uff.br)
+
+[github.com/Olgagg93](https://github.com/Olgagg93)
+:::
+:::
