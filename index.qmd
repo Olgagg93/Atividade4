@@ -78,14 +78,19 @@ Metodologia
 | Participaram                | 136     |
 | **Amostra final analisada** | **129** |
 
-## Ferramentas Estatísticas Utilizadas
+
+## Variáveis Analisadas
+
+- **Sociodemográficas** --- Sexo; Idade; Cor/Raça; Escolaridade; Renda familiar; Número de residentes em casa; Tabagistas; Dias internado; Internado em UTI; Uso de ventilação mecânica invasiva.
+- **Comorbidades** --- Doença respiratória crônica; Hipertensão arterial sistêmica; Doenças cardiovasculares; Diabetes mellitus; Doenças renais; Obesidade; Câncer.
+- **Sintomatologias** --- Febre; Fadiga; Falta de ar; Tosse; Perda de olfato e paladar; Dor de cabeça; Dor no corpo; Náuses/vômitos; Diarreia.
+
+
+## Testes Estatísticos Utilizados
 
 -   **Teste de Shapiro-Wilk** --- checagem prévia de normalidade, para validar o uso do teste t.
-
 -   **Teste t para duas amostras independentes** --- comparar o escore médio do PMOS entre dois grupos (ex.: com/sem sintoma).
-
 -   **ANOVA** --- comparar o escore médio do PMOS em mais de dois grupos (ex: escolaridade, tabagismo).
-
 -   Em todos os testes, adotou-se **p ≤ 0,05** como critério de significância estatística.
 
 ##  {background-image="covid.jpg" background-size="cover" background-position="center" background-opacity="0.30" background-color="#0b3d63"}
